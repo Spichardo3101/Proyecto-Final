@@ -1,0 +1,123 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 6, 2017, 11:26:16 PM
+    Author     : inmed
+*/
+body{
+   background: url(imagenes/fondo1.jpg) no-repeat center center fixed;
+
+background-size: cover;
+}
+
+/* Logo */
+#cabecera {
+ font-size: 55px;
+ text-align: center;
+ 
+}
+
+/* Menu */
+ul li
+{
+    list-style-type: none;
+   background: rgba(0,0,0,.3);
+    display:inline;
+    font-size: 20px;
+    font-weight: bold;
+    padding:10px;
+    border-radius:5px;  
+
+}
+
+a
+{
+    text-decoration: none;
+
+  
+}
+
+#menu
+{
+text-align: center; 
+
+
+}
+/*enlace no visitado*/
+ a:link
+  {
+      color:white;
+         
+  }
+
+/*enlace visitado*/
+
+ a:visited
+  {
+     color: white;
+       
+  }
+  
+/*Cambiar color y tamaño el menu con al pasar el cursor*/
+#menu a:hover{
+   
+   font-size:22px;
+   color:red;
+   text-decoration: none;
+}
+
+/*Cambiar color el menu al dejar el click pisado*/
+a:active{
+      color:red;
+      text-decoration: none;
+}
+
+
+
+
+
+
+
+/* cuerpo*/
+#cuerpo{
+    text-align: center;
+    
+}
+
+
+
+h4{
+        font-size: 65px;
+        font-family: Dosis;
+       padding: 0px;
+        color:white;
+        text-align: center;
+      
+   
+}
+
+.servicios{
+
+    background-color: rgba(0,0,0,.3);
+    font-family: Calibri;
+    font-size: 30px;
+    color: white;
+  text-align: center;
+  
+  
+}
+
+/* pie */
+#pie{
+   
+    background: rgba(0,0,0,.3);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 15px;
+    text-decoration: none;
+}
