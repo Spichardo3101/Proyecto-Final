@@ -188,3 +188,66 @@ p,#Texto
 h6{font-size: 13px;
 font-family: Dosis;
 color: white;}
+
+
+
+
+
+/*formulario */
+h1 {
+    color: white;
+    font-size: 45px;
+  }
+form{
+   
+margin: 0 auto;    
+width: 800px;
+padding: 2em;
+
+border: 1px solid black;
+border-radius: 2em;
+background: black;
+
+font-family: arial;
+font-weight: bold;
+font-size: 15px;
+text-align: left;
+  }
+  
+   
+  form div {
+      /*margen de espacio entre texto del formulario */
+      margin-top: 1em;
+      text-align: center
+
+  }
+
+    /*cuadro dentro del formulario */
+  label{
+      display: inline-block;
+       /*alineacion del texto del fomulario */
+        text-align: left;
+       width: 100px;
+       align-content: center;
+       color:red;
+ }
+ 
+     /*ancho del cuadros del texto */
+select,if{width: 600px;}
+  input, textarea{
+      font: 1em arial Gothic;
+      width:600px;
+      
+      text-align: center;
+      
+  }
+  
+  input:focus,textarea:focus
+  {
+  border-color:red;
+  }
+
+  
+  .centralizada{text-align: center}
+
+ .boton {text-align: center;}
