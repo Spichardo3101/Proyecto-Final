@@ -160,7 +160,7 @@ div#contenedor2{
     position: relative;
     top: 40px;
 text-align: right;
-margin: 20px;
+margin: 55px;
 font-size: 20px;
 font-weight: bold;
 color: white;
@@ -314,7 +314,7 @@ div.col  h1{
 }
  /* transicion */
 .producto .mask, .producto .content {
-    width: 200px;
+    width: 300px;
     height: 200px;
     position: absolute;
     overflow: hidden;
@@ -327,9 +327,10 @@ div.col  h1{
 
  /* letras blancas; */
 .producto p {
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 14px;
+    font-family: Calibri;
+   font-weight: Bold;
+  
+    font-size: 16px;
     position: relative;
     color: white;
     padding: 10px 20px 20px;
@@ -342,7 +343,7 @@ div.col  h1{
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
-   background-color: rgba(255,0,0, 0.8);
+   background-color: rgba(255,0,0, 0.5);
   /* background-color: rgba(219,127,8, 0.7); */
    -webkit-transition: all 0.4s ease-in-out;
    -moz-transition: all 0.4s ease-in-out;
@@ -354,6 +355,7 @@ div.col  h1{
 
 
 .producto h2{color: white;
+             font-family: Dosis;
 font-size: 25px;
 font-weight: bold;}
 
